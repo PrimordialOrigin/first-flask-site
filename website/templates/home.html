@@ -1,2 +1,46 @@
 {% extends "base.html" %} 
 {% block title %}Home{% endblock  %}
+
+{% block content %}
+<section class="bg-dark">
+    <div class="container">
+        <div class="d-sm-flex">
+            <div>
+                <h1 class="text-light pt-5">Why Join Us?</h1>
+                <p class="text-light lead my-4">We are focused on creating a better and fun learning experience for our members by exposing them to hacking events and hackathons. Our intentions is to hone the skills of everyone who has a passion for IT and help them create a array of opporunities which will help them successed in their future endeavors.    
+                </p>
+            </div>
+                <img class="img-fluid w-50 p-5 d-none d-sm-block" src="/static/images/setup.jpg" alt="">
+        </div>
+    </div>
+
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md mb-3 ms-5">
+                    <div class="card text-center bg-info">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Ethical Hacking
+                            </h5>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md mb-3 ms-5">
+                    <div class="card text-center bg-info">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Web Development
+                            </h5>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock content %}
